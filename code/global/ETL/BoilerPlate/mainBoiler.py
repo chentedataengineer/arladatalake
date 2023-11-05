@@ -1,5 +1,7 @@
 # Databricks notebook source
-#Set up rama develop en el repo arladatalake
+from pyspark import SparkContext
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col, sum
 
 # COMMAND ----------
 
